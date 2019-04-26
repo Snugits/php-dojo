@@ -12,11 +12,3 @@ services:
   cli:
     <<: *php
     restart: "no"
-#  nginx:
-#    image: nginx:alpine
-#    volumes:
-#      - "./_docker/nginx/vhost/:/etc/nginx/conf.d/"
-#      - "./:/var/www/"
-#    restart: always
-#    environment:
-#      - VIRTUAL_HOST=nuspine.local
